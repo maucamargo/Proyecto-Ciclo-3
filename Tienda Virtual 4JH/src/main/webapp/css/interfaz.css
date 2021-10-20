@@ -1,0 +1,77 @@
+.loginUsuario{
+    display:flex;
+       
+}
+
+.formUsuario{
+    margin: 0 auto;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 7px;
+    font-family: 'Montserrat', sans-serif;
+    color: #27868c;
+    border: solid 3px #27868c;
+}
+
+.cabeceraForm{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+.logInInput{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+.navigatorForm{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #27868c;
+    margin: 10px 0;
+}
+
+
+.imgLogoUser{
+    height: 120px;
+    width:150px;
+    top: 0;
+    right: 20px;
+    z-index: -1;
+    
+}
+
+.subtForm{
+    font-size: 18px;
+    color: #27868c;
+    margin-right: 6px;
+}
+
+.inputFormUser{
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 12px;
+    border: 2px #27868c solid;
+    border-radius: 10px;
+    
+}
+
+#BotonFormUser{
+    color:white;
+    padding:5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: #27868c;
+    width:100%;
+}
+
+#BotonFormUser:hover{
+    cursor: pointer;
+}

@@ -4,7 +4,20 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="stylesPaginaInicio.css"/>
+    <link href="https://file.myfontastic.com/tnSTNmDJFAPNjD8EkELSpc/icons.css" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://file.myfontastic.com/tnSTNmDJFAPNjD8EkELSpc/icons.css" rel="stylesheet">
+
+    <script src="inicio.js"></script>
+    
+    <title>Tienda Accesorios 4JH</title>
+    <link rel="shortcut icon" href="imagen/Logo.ico">
 </head>
 <body>
 	<p align="center"> CREACION DE USUARIOS</p>

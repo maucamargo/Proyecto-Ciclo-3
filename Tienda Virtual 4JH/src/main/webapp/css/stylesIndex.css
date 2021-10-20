@@ -1,0 +1,347 @@
+/*
+font-family: 'Antic Slab', serif;
+font-family: 'Montserrat', sans-serif;
+*/
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+body{
+    font-family:'Antic Slab', serif;
+}
+
+#particles-js{
+    height: 100vh;
+    width:100%;
+    position:fixed;
+    z-index:-1;
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    background-color:white;
+    color:#27868c;
+    position:fixed;
+    top: 0;
+    left:0;
+    z-index:100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.contenedorMenu{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.imgContenedorMenu{
+    height: 50px;
+}
+
+/*
+INICIO MENU 
+*/
+
+.icon-bars{
+    float: right;
+    font-size: 35px;
+    cursor: pointer;
+    margin: 6px 0;
+    color:#27868c;
+}
+
+.contenido-menu{
+    position: absolute;
+    top:50px;
+    left:0;
+    width:100%;
+    height:200px;
+    transition:all 0.5s;
+    transform: translateX(-100%);
+    font-size: 20px;
+    
+}
+
+.contenido-menu a {
+    display:block;
+    color:whitesmoke;
+    height: 50px;
+    text-decoration:none;
+    padding:15px;
+    border-bottom: 1px solid rgba(255,255,255,0.5);
+    
+}
+
+.contenido-menu a:hover{
+    background: rgba(255,255,255,0.5);
+}
+
+
+#inicio{
+    background-color: #9ed157;
+    
+}
+
+
+#ingresar{
+    background-color: #dee854;
+}
+
+#productos{
+    background-color: #5ebbc7;
+}
+
+#contacto{
+    background-color: #276c77;
+}
+
+
+#menu-bar{
+    visibility: hidden;
+}
+
+#menu-bar:checked ~ .contenido-menu{
+    transform: translateX(0);
+    
+}
+
+@media (min-width:1000px){
+
+    .contenido-menu{
+        position:static;
+        width:auto;
+        height:auto;
+        transform: translateX(0);
+        float:right;
+        display: flex;
+    }    
+
+    .contenido-menu a {
+       border:none;
+    }
+
+    .icon-bars{
+        display:none;
+    }
+}
+
+/*
+FIN MENU 
+*/
+
+
+/*
+INICIO MAIN
+*/
+section{
+    width: 100%;
+    margin-bottom: 25px;
+    
+}
+
+#banner{
+    margin-top: 50px;
+    
+}
+
+.imgBanner{
+    width: 100%;
+    height: 70%;
+        
+}
+
+#banner .contenedorMain{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translateX(-50%) translateX(-50%);
+    
+}
+
+.subtituloMain{
+    font-size: 28px;
+    font-family: 'Montserrat', sans-serif;
+    color:#dceb56;
+    
+}
+
+.parrafoMain{
+    color:#dceb56;
+}
+
+.botoncitoMain{
+    display: block;
+    width: 100px;
+    color:white;
+    padding: 7px;
+    margin-top: 10px;
+    border: 3px solid #dceb56;
+    visibility: hidden;
+}
+
+.botoncitoMain{
+    background: rgba(255,255,255,0.5);
+}
+
+
+/*
+FIN MAIN
+*/
+
+/*
+PRODUCTOS 
+*/
+
+#infoProductos{
+    text-align: center;
+}
+
+.subtituloInfoProductos{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: #276c77;
+}
+
+.parrafoInfoProductos{
+    font-size:25px;
+    text-align: center;
+}
+
+
+.Productos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding:20px;
+}
+
+.listaProductos{
+    width:100%;
+    text-align: center;
+   
+}
+
+.imgProductos{
+    width: 300px;
+    height: 300px;
+    border-radius: 5%;
+    border:5px solid #27868c; 
+}
+
+.parrafoProducto{
+    text-align: center;
+    font-size: 30px;
+}
+
+/*
+FIN PRODUCTOS 
+*/
+
+/*
+FORMULARIO DE CONTACTO
+*/
+.FormContacto{
+    background-color: rgb(218, 205, 205);
+}
+
+.formulario{
+    width:450px;
+    margin: auto;
+    background: none;
+    padding: 10px 28px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Contactanos{
+    color:#27868c;
+    font-weight: 800;
+    text-align: center;
+    margin:0;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.inputForm, .areaMensaje{
+    width:100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: 2px #27868c solid;
+    border-radius: 10px;
+}
+
+.areaMensaje{
+    min-height: 100px;
+    max-height: 200px;
+    max-width:100%;
+}
+
+.labelForm{
+    color: #27868c;
+    font-weight: 600;
+}
+
+#BotonForm{
+    background-color: white;
+    color:white;
+    font-weight: 800;
+    padding:20px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 10px;
+    background-color: #27868c;
+}
+
+#BotonForm:hover{
+    cursor: pointer;
+}
+
+@media(max-width:400px){
+    .Contactanos{
+        width:100%;
+    }
+}
+
+/*
+FIN FORMULARIO DE CONTACTO
+*/
+
+/*
+FOOTER
+*/
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+.copy{
+    font-size: 25px;
+
+}
+
+.socialMedia{
+    width:100%;
+    text-align: center;
+    font-size: 40px;
+}
+
+.socialMedia a{
+    color:black;
+    text-decoration: none;
+}
+

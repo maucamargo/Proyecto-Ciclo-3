@@ -1,0 +1,72 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+body{
+    font-family:'Antic Slab', serif;
+}
+
+.fondo{
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor2{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contenido2{
+    padding: 12px;
+}
+
+
+.contenido2 a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+}
+
+
+.imgFondo{
+    opacity:0.5;
+}
+
+#Usuarios{
+    background-color:#9cd259;
+}
+#Clientes{
+    background-color: #dceb56;
+}
+#Proveedores{
+    background-color:#297d84;
+}
+#Productos{
+    background-color:#7bc4cd;
+}
+#Ventas{
+    background-color:#5cbbc3;
+}
+#Reportes{
+    background-color:#78b2b8;
+}
+
+@media (max-width: 1000px){
+    .contenido2 a {
+        display:flex;
+        color:whitesmoke;
+        height: 50px;
+        text-decoration:none;
+        padding:15px;
+        border-bottom: 1px solid rgba(255,255,255,0.5);
+    }
+}
+
+
+
+
+
+
