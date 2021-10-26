@@ -1,43 +1,68 @@
-*{
-	margin:0;
-	padding:0;
-	box-sizing: border-box;
+
+header{
+    margin: auto;
+    font-family:'Antic Slab', serif;
+    display: flex;
+    justify-content: flex-end;
+    justify-items: flex-end;
+    z-index:100;
 }
 
-body{
-    font-family:'Antic Slab', serif;
+
+ul{
+    list-style:none;
 }
+
+.contenido2 > li {
+    display: inline-block;
+    width: 150px;
+       
+}
+
+.contenido2 li a {
+    background-color:#78b2b8;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    padding:10px 12px;
+    display: block;
+    
+}
+
+.contenido2 li a:hover{
+    background-color:  #5cbbc3;
+}
+
+.contenido2 li ul{
+    position:absolute;
+    display: none;
+    z-index: 100;
+    min-width: 150px;
+    
+}
+
+.contenido2 li:hover > ul{
+    display: block;
+    min-width: 150px;
+    padding-left: 0%;
+}
+
 
 .fondo{
     display: flex;
     justify-content: center;
+    justify-items: center;
+   
 }
-
-.contenedor2{
-    display: flex;
-    justify-content: flex-end;
-}
-
-.contenido2{
-    padding: 12px;
-}
-
-
-.contenido2 a{
-    font-size: 20px;
-    color: white;
-    text-decoration: none;
-    padding: 12px;
-}
-
 
 .imgFondo{
-    opacity:0.5;
+    opacity:0.1;
 }
 
 #Usuarios{
     background-color:#9cd259;
 }
+
 #Clientes{
     background-color: #dceb56;
 }
@@ -53,19 +78,6 @@ body{
 #Reportes{
     background-color:#78b2b8;
 }
-
-@media (max-width: 1000px){
-    .contenido2 a {
-        display:flex;
-        color:whitesmoke;
-        height: 50px;
-        text-decoration:none;
-        padding:15px;
-        border-bottom: 1px solid rgba(255,255,255,0.5);
-    }
-}
-
-
 
 
 
