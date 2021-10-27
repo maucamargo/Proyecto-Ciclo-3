@@ -1,0 +1,115 @@
+@charset "ISO-8859-1";
+
+.crearUsuario{
+    display:flex;
+}
+
+.imgagenLogoUsuariosCrear{
+    height: 120px;
+    width:150px;
+    top: 0;
+    right: 20px;
+    z-index: -1;
+}
+
+.formCrearUsuarios{
+    margin: 0 auto;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 7px;
+    font-family: 'Montserrat', sans-serif;
+    color: #27868c;
+    border: solid 3px #27868c;
+}
+.cabeceraFormCrear{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    }
+
+
+.subtitleCrear{
+    font-size: 18px;
+    color: #27868c;
+    margin-right: 6px;
+}
+
+.inputDatoCrear{
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 12px;
+    border: 2px #27868c solid;
+    border-radius: 10px;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.inputDatoCrear{
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 12px;
+    border: 2px #27868c solid;
+    border-radius: 10px;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.labelcedulaCrear{
+    width:100px;
+}
+
+.labelNombreCrear, .labelEmailCrear, .labelUserCrear, .labelPasswordCrear{
+    width:100px;
+}
+
+.labelEmailCrear, .labelPasswordCrear{
+    margin-left: 1%;
+}
+
+.datoIdentificacion{
+    display: flex;
+    margin-block: 2%;
+}
+
+.datosPersonalesCrear{
+    display: flex;
+    justify-content: space-around;
+    margin-block: 2%;
+}
+
+.datosUsuarioCrear{
+    display: flex;
+    justify-content: space-around;
+    margin-block: 2%;
+}
+
+.botonCrear{
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    margin-top:2%;
+}
+
+
+.botonCrudCrear{
+    color:white;
+    padding:5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: #27868c;
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    border: white 2px solid;
+}
+
+.botonCrudCrear:hover{
+    cursor: pointer;
+    background-color: #9cd259;
+}
+
