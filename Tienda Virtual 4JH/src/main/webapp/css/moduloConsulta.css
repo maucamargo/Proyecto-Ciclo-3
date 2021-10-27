@@ -1,0 +1,113 @@
+@charset "ISO-8859-1";
+
+.ModulodeConsultas{
+    display: flex;
+}
+.contenedorformConsulta{
+    width: 50vw;
+    display:flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 10px 20px;
+    border-radius: 7px;
+    font-family: 'Montserrat', sans-serif;
+    color: #27868c;
+    border: solid 3px #27868c;
+}
+
+.cabeceraModuloConsulta{
+    display:flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+.imgLogoUser{
+    height:120px;
+    width:150px;
+    top: 0;
+    right: 20px;
+    z-index: -1;
+}
+
+.subtConsulta{
+    font-size:25px;
+    color: #27868c;
+    margin-left: 15%;
+    margin-top: 6%;
+}
+
+.labelConsulta{
+    font-size: 14px;
+    margin-right: 2%;
+}
+
+.datosConsulta{
+    display: flex;
+    justify-content: space-between;
+    color: #27868c;
+}
+
+.inputConsulta{
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 12px;
+    border: 2px #27868c solid;
+    border-radius: 10px;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    justify-items:center;
+    margin-right:4%;
+}
+
+#BotonConsulta{
+    color:white;
+    padding: 4px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: #27868c;
+    width: 100%;
+}
+
+#BotonConsulta:hover, #listarClientes:hover{
+    background-color:#9cd259;
+    cursor: pointer;
+    
+}
+
+#tablaConsulta, #tablaListar{
+    margin-top:5%;
+    caption-side:bottom;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    border-collapse: collapse;
+    display: none;
+    
+}
+
+.botonLista{
+    width:48%;
+    color:white;
+    padding: 4px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: #27868c;
+    margin-top: 20px;
+}
+
+th{
+    background-color:#9cd259;
+    color: white;
+}
+
+td,th{
+    border: 2px solid #27868c;
+    padding-left:20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
