@@ -1,0 +1,186 @@
+@charset "ISO-8859-1";
+
+.ModulodeEliminar{
+    display: flex;
+}
+
+.contenedorformEliminar{
+    width: 50vw;
+    display:flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 10px 20px;
+    border-radius: 7px;
+    font-family: 'Montserrat', sans-serif;
+    color: #27868c;
+    border: solid 3px #27868c;
+}
+
+.cabeceraModuloEliminar{
+    display:flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+.imgLogoUserEliminar{
+    height:120px;
+    width:150px;
+    top: 0;
+    right: 20px;
+    z-index: -1;
+}
+
+.subtEliminar{
+    font-size:25px;
+    color: #27868c;
+    margin-left: 15%;
+    margin-top: 6%;
+}
+
+.labelEliminar{
+    font-size: 14px;
+    margin-right: 2%;
+}
+
+.datosEliminar{
+    display: flex;
+    justify-content: space-between;
+    color: #27868c;
+}
+
+.inputConsultaEliminar{
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 12px;
+    border: 2px #27868c solid;
+    border-radius: 10px;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    justify-items:center;
+    margin-right:4%;
+}
+
+#BotonConsultaEliminar{
+    color:white;
+    padding: 1.5%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: #27868c;
+    width: 100%;
+}
+#BotonConsultaEliminar:hover, #datosxEliminar:hover{
+    background-color:#9cd259;
+    cursor: pointer;
+}
+
+#tablaEliminar{
+    margin-top:5%;
+    caption-side:bottom;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    border-collapse: collapse;
+    display: none;
+}
+
+.botondatosxraEliminar{
+    color:white;
+    background-color: #27868c;
+    padding: 1.5%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+    
+}
+
+th{
+    background-color:#9cd259;
+    color: white;
+}
+
+td,th{
+    border: 2px solid #27868c;
+    padding-left:20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+#seccionFormEliminar{
+    display: none;
+    
+}
+
+.formDatosEliminar{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3%;
+   
+}
+
+
+.inputDatoEliminar{
+    padding: 2%;
+    box-sizing: border-box;
+    font-size: 12px;
+    border: 2px #27868c solid;
+    border-radius: 10px;
+    padding: 1.5%;
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    width: 150%;
+}
+
+.labelFormEliminar{
+    width:80%;
+    margin-left:2%;
+}
+
+#idesconderE{
+    color: white;
+    border: 2px white solid;
+    width: 150%;
+}
+
+
+.datosPersonalesEliminar{
+    display: flex;
+    justify-content: space-around;
+    margin-block: 2%;
+}
+
+.datosUsuarioEliminar{
+    display: flex;
+    justify-content: space-around;
+    margin-block: 2%;
+}
+
+.botonEliminar{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top:2%;
+    
+}
+
+
+.botonCrudEliminar{
+    color:white;
+    padding:1.5%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: #27868c;
+    
+    
+}
+
+.botonCrudEliminar:hover{
+    cursor: pointer;
+    background-color: #9cd259;
+}
+
