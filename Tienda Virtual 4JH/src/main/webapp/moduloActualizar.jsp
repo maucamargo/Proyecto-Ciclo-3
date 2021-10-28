@@ -31,12 +31,12 @@
             <div class="datosActualizar">
                                 
                 <input class="inputConsultaActualizar" type="number" name="NumeroCCActualizar" id="identificacionActualizar"> 
-                <button class="botonConsultaActualizar" type="button" onclick="mostrarTabla1();" value="ConsultaxraActualizar" id="BotonConsultaActualizar">Consultar</button>
+                <button class="botonConsultaActualizar" type="button" onclick="mostrarTablaxActualizar();" value="ConsultaxraActualizar" id="BotonConsultaActualizar">Consultar</button>
             
             </div>
     
                 <div class="resultadoConsultaActualizar">
-                    <table id="tablaConsulta">
+                    <table id="tablaActualizar">
                         <tr>
                             <th>Cédula</th>
                             <th>Nombre</th>
@@ -104,8 +104,8 @@
 	</main>
 
     <script type="text/JavaScript">
-        function mostrarTabla1(){
-            document.getElementById('tablaConsulta').style.display = 'block';
+        function mostrarTablaxActualizar(){
+            document.getElementById('tablaActualizar').style.display = 'block';
         }
         function mostrarDatosActualizar(){
             document.getElementById('seccionFormActualizar').style.display = 'block';
