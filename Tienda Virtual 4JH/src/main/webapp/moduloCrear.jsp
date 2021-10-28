@@ -23,7 +23,7 @@
             </nav>
             <div class="cabeceraFormCrear">
 
-                <h2 class="subtitleCrear"><br>Crear</h2>
+                <h2 class="subtitleCrear"><br>Crear Usuario</h2>
                 <img class="imgagenLogoUsuariosCrear" src="imagen/Logo.jpeg" alt="Insertar Logo"> 
             </div>
             

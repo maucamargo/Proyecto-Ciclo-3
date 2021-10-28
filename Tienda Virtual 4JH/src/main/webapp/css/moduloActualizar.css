@@ -115,9 +115,10 @@ td,th{
 }
 
 .formDatosActualizar{
-    display: flex;
-    justify-content: space-around;
     margin-top: 3%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
    
 }
 
@@ -146,6 +147,10 @@ td,th{
     width: 150%;
 }
 
+#idActualizar{
+    pointer-events: none;
+    opacity: 0.4;
+}
 
 .datosPersonalesActualizar{
     display: flex;
