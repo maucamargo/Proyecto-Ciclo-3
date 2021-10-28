@@ -17,22 +17,23 @@
 <main>
         <div class="ModulodeEliminar">
             <form class="contenedorformEliminar">
-            <nav class="navigatorLink">
-                <a id="regresar" href="">Regresar</a>
-            </nav>
-            <div class="cabeceraModuloEliminar">                    
-                <h2 class="subtEliminar">Eliminar</h2>
-               
-                <img class="imgLogoUserEliminar" src="imagen/Logo.jpeg" alt="Insertar Logo"> 
-            </div>
-            <label class="labelActualizar" for="cedula">Número de Identificación:<br></label>   
+                <nav class="navigatorLink">
+                    <a id="regresar" href="">Regresar</a>
+                </nav>
 
-            <div class="datosEliminar">
+                <div class="cabeceraModuloEliminar">                    
+                    <h2 class="subtEliminar">Eliminar</h2>
+               
+                    <img class="imgLogoUserEliminar" src="imagen/Logo.jpeg" alt="Insertar Logo"> 
+                </div>
+                <label class="labelActualizar" for="cedula">Número de Identificación:<br></label>   
+
+                <div class="datosEliminar">
                                 
                 <input class="inputConsultaEliminar" type="number" name="NumeroCCEliminar" id="identificacionEliminar"> 
-                <button class="botonConsultaEliminar" type="button" onclick="mostrarEliminar();" value="ConsultaxraEliminar" id="BotonConsultaEliminar">Consultar</button>
+                <button class="botonConsultaEliminar" type="button" onclick="mostrarEliminar();" value="ConsultaxraEliminar" id="BotonConsultaEliminar">Validar</button>
             
-            </div>
+                </div>
     
                 <div class="resultadoConsultaEliminar">
                     <table id="tablaEliminar">
@@ -52,54 +53,15 @@
                         </tr>
                     </table>
     
-                </div>
-    
-                            
-            <button class="botondatosxraEliminar" type="button" onclick=" mostrarDatosActualizar()" value="datosEliminar" id="datosxEliminar">Informacion completa a Eliminar</button>
-            
-            <div id="seccionFormEliminar">    
-                    <form id="formEliminarUsuarios">
-                        <div class="formDatosEliminar">
-                            <label class="labelFormEliminar" for="cedula">Cédula</label>
-                            <input class="inputDatoEliminar" type="number" name="cedula" id="id"> 
-
-                            <label class="labelFormEliminar"></label>
-                            <label class="labelFormEliminar" id="idesconderE"> 
-                        
-        
-                        </div>
-        
-                        <div class="datosPersonalesEliminar">
-                            <label class="labelFormEliminar" for="Nombre" >Nombre<br>Completo</label>
-                            <input class="inputDatoEliminar" type="text" name="Nombre" id="Nombre" >
-        
-                            <label class="labelFormEliminar"for="Email">Correo<br>Electrónico </label>
-                            <input class="inputDatoEliminar" type="text" name="Email" id="Email"> 
-        
-                        </div>
-        
-                        <div class="datosUsuarioEliminar">
-                            <label class="labelFormEliminar" for="Usuario">Usuario</label>
-                            <input class="inputDatoEliminar" type="text" name="Usuario" id="Usuario">
-        
-                             <label class="labelFormEliminar" for="Password">Contraseña</label>
-                            <input class="inputDatoEliminar" type="text" name="Password" id="Password">
-                        </div>
-
+                    </div>
                         <div class="botonEliminar">
                             <button class="botonCrudEliminar" type="button" value="Crear" id="BotonEliminar">Eliminar</button>
-                        </div>
-                        
-                    </form>
-                    
-                </form>
-
-                     
-            </div>
-              
+                    </div>
+                </div>        
+            </form>
+ 
         </div>
-        
-        
+
     </main>
 
     <script type="text/JavaScript">
@@ -109,7 +71,6 @@
         function mostrarDatosActualizar(){
             document.getElementById('seccionFormEliminar').style.display = 'block';
         }
-                       
     
     </script>
         

@@ -14,9 +14,8 @@
 <body>
 <header>
 </header>
-
 <main>
-       <div class="ModulodeActualizaciones">
+        <div class="ModulodeActualizaciones">
             <form class="contenedorformActualizar">
             <nav class="navigatorLink">
                 <a id="regresar" href="">Regresar</a>
@@ -31,77 +30,68 @@
             <div class="datosActualizar">
                                 
                 <input class="inputConsultaActualizar" type="number" name="NumeroCCActualizar" id="identificacionActualizar"> 
-                <button class="botonConsultaActualizar" type="button" onclick="mostrarTablaxActualizar();" value="ConsultaxraActualizar" id="BotonConsultaActualizar">Consultar</button>
-            
+                <button class="botonConsultaActualizar" type="button" onclick="mostrarDatosActualizar();" value="ConsultaxraActualizar" id="BotonConsultaActualizar">Validar</button>
             </div>
-    
-                <div class="resultadoConsultaActualizar">
-                    <table id="tablaActualizar">
-                        <tr>
-                            <th>Cédula</th>
-                            <th>Nombre</th>
-                            <th>Correo Electrónico</th>
-                            <th>Dirección</th>
-                            <th>Teléfono</th>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                    </table>
-    
-                </div>
-    
-                            
-            <button class="botondatosxraActualizar" type="button" onclick=" mostrarDatosActualizar()" value="datosActualizar" id="datosxActualizar">Datos disponibles para Actualizar</button>
             
             <div id="seccionFormActualizar">    
-                    <form id="formActualizarUsuarios">
-                        <div class="formDatosActualizar">
-                            <label class="labelFormActualizar" for="cedula">Cédula</label>
-                            <input class="inputDatoActualizar" type="number" name="cedula" id="id"> 
+                <form id="formActualizarUsuarios">
+                    <div class="formDatosActualizar">
+                        <label class="labelFormActualizar" for="cedula">Cédula</label>
+                        <input class="inputDatoActualizar" type="none" name="cedula" id="idActualizar"> 
+            
+                        <label class="labelFormActualizar"></label>
+                        <label class="labelFormActualizar" id="idesconder"> 
+                    
+            
+                    </div>
+            
+                    <div class="datosPersonalesActualizar">
+                        <label class="labelFormActualizar" for="Nombre" >Nombre<br>Completo</label>
+                        <input class="inputDatoActualizar" type="text" name="Nombre" id="Nombre" >
+            
+                        <label class="labelFormActualizar"for="Email">Correo<br>Electrónico </label>
+                        <input class="inputDatoActualizar" type="text" name="Email" id="Email"> 
+            
+                    </div>
+            
+                    <div class="datosUsuarioActualizar">
+                        <label class="labelFormActualizar" for="Usuario">Usuario</label>
+                        <input class="inputDatoActualizar" type="text" name="Usuario" id="Usuario">
+            
+                         <label class="labelFormActualizar" for="Password">Contraseña</label>
+                        <input class="inputDatoActualizar" type="text" name="Password" id="Password">
+                    </div>
+            
+                    <div class="botonActualizar">
+                        <button class="botonCrudActualizar" type="button" onclick="mostrarTablaxActualizar()" value="Crear" id="BotonActualizar">Actualizar</button>
+                    </div>
 
-                            <label class="labelFormActualizar"></label>
-                            <label class="labelFormActualizar" id="idesconder"> 
-                        
-        
-                        </div>
-        
-                        <div class="datosPersonalesActualizar">
-                            <label class="labelFormActualizar" for="Nombre" >Nombre<br>Completo</label>
-                            <input class="inputDatoActualizar" type="text" name="Nombre" id="Nombre" >
-        
-                            <label class="labelFormActualizar"for="Email">Correo<br>Electrónico </label>
-                            <input class="inputDatoActualizar" type="text" name="Email" id="Email"> 
-        
-                        </div>
-        
-                        <div class="datosUsuarioActualizar">
-                            <label class="labelFormActualizar" for="Usuario">Usuario</label>
-                            <input class="inputDatoActualizar" type="text" name="Usuario" id="Usuario">
-        
-                             <label class="labelFormActualizar" for="Password">Contraseña</label>
-                            <input class="inputDatoActualizar" type="text" name="Password" id="Password">
-                        </div>
-
-                        <div class="botonActualizar">
-                            <button class="botonCrudActualizar" type="button" value="Crear" id="BotonActualizar">Actualizar</button>
-                        </div>
-                        
-                    </form>
+                    <div class="resultadoConsultaActualizar">
+                        <table id="tablaActualizar">
+                            <tr>
+                                <th>Cédula</th>
+                                <th>Nombre</th>
+                                <th>Correo Electrónico</th>
+                                <th>Dirección</th>
+                                <th>Teléfono</th>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </table>
+                    
+                    </div>    
                     
                 </form>
-
-                     
-            </div>
-              
-        </div>
-        
-        
-	</main>
+               
+            </div>                    
+        <!--<button class="botondatosxraActualizar" type="button"  value="datosActualizar" id="datosxActualizar">Datos disponibles para Actualizar</button>-->   
+         </div>
+     </main>
 
     <script type="text/JavaScript">
         function mostrarTablaxActualizar(){
@@ -110,8 +100,6 @@
         function mostrarDatosActualizar(){
             document.getElementById('seccionFormActualizar').style.display = 'block';
         }
-                       
-    
-    </script>
+</script>
         
 </body>
