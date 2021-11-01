@@ -87,22 +87,40 @@ INICIO MENU
 }
 
 
+
 #inicio{
     background-color: #9ed157;
-    
 }
 
+#inicio:hover{
+    background-color:#86df09;
+    opacity:0.9;
+}
 
 #ingresar{
     background-color: #dee854;
 }
+#ingresar:hover{
+    background-color: #d2df19;
+    opacity:0.9;
+}
 
 #productos{
+    background-color: #1fb4c7;
+}
+
+#productos:hover{
     background-color: #5ebbc7;
+    opacity:0.9;
 }
 
 #contacto{
     background-color: #276c77;
+}
+
+#contacto:hover{
+    background-color: #01272c;
+    opacity:0.9;
 }
 
 
